@@ -5,18 +5,20 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<String>tovar=new ArrayList<>();
+        ArrayList<String> tovar = new ArrayList<>();
+        Scanner tov = null;
+        String sss = null;
 
-        try{  Scanner tov=new Scanner(new File("srlad.xlsx"));
-
-            while (tov.hasNextBoolean()){
-              tov.nextLine();
-            tovar.add(tov.nextLine());
-        }
+        try {
+            tov = new Scanner(new File("srlad.csv" ));
+            while (tov.hasNext()) {
+                sss = tov.nextLine();
+                tovar.add(sss);
+            }
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        for (String i:tovar ) {
+        for (String i : tovar) {
             System.out.println(i);
         }
     }
