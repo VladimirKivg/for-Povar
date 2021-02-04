@@ -9,11 +9,17 @@ public class Main {
 //muu();
 //        ArreyFile file = new ArreyFile();
 //        for (String s:file.arrayList()){
+
 //            System.out.println(s);//
+//        }
+
+
+//            System.out.println(s);
 //        }
         MouseEventDemo demo = new MouseEventDemo();
         demo.setSize(new Dimension(300,300));
-        demo.setTitle("MouseEventDemo якась  трапилась");
+        demo.setTitle("MouseEventDemo якась хуйня трапилась");
+
         demo.setVisible(true);
 
     }
