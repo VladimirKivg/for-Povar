@@ -13,7 +13,7 @@ public class Main {
 //        }
         MouseEventDemo demo = new MouseEventDemo();
         demo.setSize(new Dimension(300,300));
-        demo.setTitle("MouseEventDemo якась хуйня трапилась");
+        demo.setTitle("MouseEventDemo якась  трапилась");
         demo.setVisible(true);
 
     }
