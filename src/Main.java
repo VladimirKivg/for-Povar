@@ -7,11 +7,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 //muu();
-//        ArreyFile file = new ArreyFile();
-//        for (String s:file.arrayList()){
+        ArreyFile file = new ArreyFile();
+        for (String s:file.arrayList()){
 
-//            System.out.println(s);//
-//        }
+            System.out.println(s);//
+        }
 
 
 //            System.out.println(s);
