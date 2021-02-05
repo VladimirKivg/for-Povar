@@ -8,7 +8,7 @@ public class ArreyFile {//переробити під звичайний ска�
     public  ArrayList<String> arrayList (){
         List<String> result =new ArrayList<>();
       try {
-        result= Files.readAllLines(Paths.get("srlad.csv"));
+        result= Files.readAllLines(Paths.get("ddd.txt"));
       } catch (IOException e) {
           e.printStackTrace();
       }
